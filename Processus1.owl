@@ -1,0 +1,91 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pr: <http://example.org/projet#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.org/projet> a owl:Ontology .
+
+pr:be a owl:ObjectProperty ;
+    rdfs:domain pr:Plan_risk_Management ;
+    rdfs:range pr:define .
+
+pr:describe a owl:ObjectProperty ;
+    rdfs:domain pr:risk_Management_Plan ;
+    rdfs:range pr:activity .
+
+pr:has_inputs a owl:ObjectProperty ;
+    rdfs:domain pr:Plan_risk_Management ;
+    rdfs:range pr:Plan_risk_Management_inputs .
+
+pr:has_outputs a owl:ObjectProperty ;
+    rdfs:domain pr:Plan_risk_Management ;
+    rdfs:range pr:Plan_risk_Management_outputs .
+
+pr:has_tools_and_techniques a owl:ObjectProperty ;
+    rdfs:domain pr:Plan_risk_Management ;
+    rdfs:range pr:Plan_risk_Management_tools_and_techniques .
+
+pr:have a owl:ObjectProperty ;
+    rdfs:domain pr:Expert_Judgment ;
+    rdfs:range pr:association .
+
+pr:influence a owl:ObjectProperty ;
+    rdfs:domain pr:Enterprise_Environmental_Factors,
+        pr:organizational_Process_Assets ;
+    rdfs:range pr:plan,
+        pr:process .
+
+pr:provide a owl:ObjectProperty ;
+    rdfs:domain pr:Project_Management_Plan,
+        pr:Project_charter,
+        pr:Stakeholder_register ;
+    rdfs:range pr:area,
+        pr:requirement,
+        pr:role .
+
+pr:Analytical_techniques a pr:Plan_risk_Management_tools_and_techniques ;
+    rdfs:comment pr:technique_be_use_understand_define_risk_management_context_project .
+
+pr:Enterprise_Environmental_Factors a pr:Plan_risk_Management_inputs ;
+    rdfs:comment pr:enterprise_factor_can_influence_Plan_Risk_Management_process_include_be_limit_to_risk_attitude_threshold_tolerance_describe_degree_risk_organization_will_withstand .
+
+pr:Expert_Judgment a pr:Plan_risk_Management_tools_and_techniques ;
+    rdfs:comment pr:management_Project_stakeholder_Project_manager_who_have_work_project_area_matter_expert_S_M_Es_business_project_area_Industry_group_consultant_association .
+
+pr:Meetings a pr:Plan_risk_Management_tools_and_techniques ;
+    rdfs:comment pr:Project_team_hold_planning_meeting_develop_risk_management_plan .
+
+pr:Project_Management_Plan a pr:Plan_risk_Management_inputs ;
+    rdfs:comment pr:project_management_plan_provide_state_riskaffected_area_include_scope_schedule_cost .
+
+pr:Project_charter a pr:Plan_risk_Management_inputs ;
+    rdfs:comment pr:project_charter_can_provide_inputs_risk_project_description_requirement .
+
+pr:Stakeholder_register a pr:Plan_risk_Management_inputs ;
+    rdfs:comment pr:stakeholder_register_contain_detail_project_stakeholder_provide_overview_role .
+
+pr:define a owl:ObjectProperty ;
+    rdfs:domain pr:Analytical_techniques ;
+    rdfs:range pr:context .
+
+pr:organizational_Process_Assets a pr:Plan_risk_Management_inputs ;
+    rdfs:comment pr:Risk_category_definition_concept_term_Risk_statement_format_Standard_templates_Roles_responsibility_Authority_level_decision_making_Lessons_learn .
+
+pr:risk_Management_Plan a pr:Plan_risk_Management_outputs ;
+    rdfs:comment pr:risk_management_plan_be_component_project_management_plan_describe_risk_management_activity_will_be_structure_performed .
+
+pr:Plan_risk_Management_outputs a owl:Class ;
+    rdfs:subClassOf pr:Plan_risk_Management .
+
+pr:plan a owl:ObjectProperty ;
+    rdfs:domain pr:Meetings ;
+    rdfs:range pr:plan .
+
+pr:Plan_risk_Management_tools_and_techniques a owl:Class ;
+    rdfs:subClassOf pr:Plan_risk_Management .
+
+pr:Plan_risk_Management_inputs a owl:Class ;
+    rdfs:subClassOf pr:Plan_risk_Management .
+
+pr:Plan_risk_Management a owl:Class ;
+    rdfs:comment pr:Plan_Risk_Management_be_process_define_conduct_risk_management_activity_project .
+
