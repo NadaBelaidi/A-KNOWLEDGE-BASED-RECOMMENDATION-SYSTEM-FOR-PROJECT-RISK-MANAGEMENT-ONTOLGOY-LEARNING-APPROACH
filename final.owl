@@ -1,0 +1,2103 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ahmed/ontologies/2021/10/untitled-ontology-24#"
+     xml:base="http://www.semanticweb.org/ahmed/ontologies/2021/10/untitled-ontology-24"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ahmed/ontologies/2021/10/final"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/p2#be -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p2#be">
+        <rdfs:domain rdf:resource="http://example.org/p2#Information_Gathering_techniques"/>
+        <rdfs:range rdf:resource="http://example.org/p2#responsibility"/>
+        <rdfs:range rdf:resource="http://example.org/p2#team"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p2#become -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p2#become"/>
+    
+
+
+    <!-- http://example.org/p2#decision -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p2#decision"/>
+    
+
+
+    <!-- http://example.org/p2#develop -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p2#develop">
+        <rdfs:domain rdf:resource="http://example.org/p2#checklist_Analysis"/>
+        <rdfs:range rdf:resource="http://example.org/p2#knowledge"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p2#examines -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p2#examines">
+        <rdfs:domain rdf:resource="http://example.org/p2#SWot_Analysis"/>
+        <rdfs:range rdf:resource="http://example.org/p2#strengths"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p2#explore -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p2#explore">
+        <rdfs:domain rdf:resource="http://example.org/p2#Assumptions_Analysis"/>
+        <rdfs:range rdf:resource="http://example.org/p2#assumption"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p2#guidance -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p2#guidance">
+        <rdfs:domain rdf:resource="http://example.org/p2#Activity_cost_Estimates"/>
+        <rdfs:range rdf:resource="http://example.org/p2#project"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p2#has_inputs -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p2#has_inputs">
+        <rdfs:domain rdf:resource="http://example.org/p2#Identify_risk_"/>
+        <rdfs:range rdf:resource="http://example.org/p2#Identify_risk_inputs"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p2#has_outputs -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p2#has_outputs">
+        <rdfs:domain rdf:resource="http://example.org/p2#Identify_risk"/>
+        <rdfs:range rdf:resource="http://example.org/p2#Identify_risk_outputs"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p2#has_tools_and_techniques -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p2#has_tools_and_techniques">
+        <rdfs:domain rdf:resource="http://example.org/p2#Identify_risk"/>
+        <rdfs:range rdf:resource="http://example.org/p2#Identify_risk_tools_and_techniques"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p2#identify -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p2#identify">
+        <rdfs:domain rdf:resource="http://example.org/p2#Project_documents"/>
+        <rdfs:domain rdf:resource="http://example.org/p2#diagramming_techniques"/>
+        <rdfs:range rdf:resource="http://example.org/p2#cause"/>
+        <rdfs:range rdf:resource="http://example.org/p2#project"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p2#include -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p2#include">
+        <rdfs:range rdf:resource="http://example.org/p2#attitude"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p2#influence -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p2#influence">
+        <rdfs:domain rdf:resource="http://example.org/p2#cost_Management_Plan"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p2#perform -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p2#perform">
+        <rdfs:domain rdf:resource="http://example.org/p2#documentation_reviews"/>
+        <rdfs:range rdf:resource="http://example.org/p2#assumption"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p2#performance -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p2#performance">
+        <rdfs:domain rdf:resource="http://example.org/p2#Human_resource_Management_Plan"/>
+        <rdfs:range rdf:resource="http://example.org/p2#result"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p2#process -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p2#process">
+        <rdfs:domain rdf:resource="http://example.org/p2#Identify_Risk"/>
+        <rdfs:range rdf:resource="http://example.org/p2#affect"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p2#provide -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p2#provide">
+        <rdfs:range rdf:resource="http://example.org/p2#measure"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p2#quantitve -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p2#quantitve">
+        <rdfs:range rdf:resource="http://example.org/p2#assessment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p2#schedule -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p2#schedule">
+        <rdfs:domain rdf:resource="http://example.org/p2#Quality_Management_Plan"/>
+        <rdfs:range rdf:resource="http://example.org/p2#plan"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p2#solicit -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p2#solicit">
+        <rdfs:domain rdf:resource="http://example.org/p2#Procurement_documents"/>
+        <rdfs:range rdf:resource="http://example.org/p2#input"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p2#take -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p2#take"/>
+    
+
+
+    <!-- http://example.org/p2#understand -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p2#understand">
+        <rdfs:domain rdf:resource="http://example.org/p2#Activity_duration_Estimates"/>
+        <rdfs:range rdf:resource="http://example.org/p2#risk"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p3#be_management -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p3#be_management">
+        <rdfs:domain rdf:resource="http://example.org/p3#risk_data_Quality_Assessment"/>
+        <rdfs:range rdf:resource="http://example.org/p3#management"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p3#determines_activity -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p3#determines_activity">
+        <rdfs:domain rdf:resource="http://example.org/p3#risk_categorization"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p3#evaluate_attention -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p3#evaluate_attention">
+        <rdfs:domain rdf:resource="http://example.org/p3#Probability_and_Impact_Matrix"/>
+        <rdfs:range rdf:resource="http://example.org/p3#attention"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p3#evaluate_project -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p3#evaluate_project">
+        <rdfs:domain rdf:resource="http://example.org/p3#Scope_Baseline"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p3#give_rating -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p3#give_rating">
+        <rdfs:domain rdf:resource="http://example.org/p3#risk_urgency_Assessment"/>
+        <rdfs:range rdf:resource="http://example.org/p3#rating"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p3#has_input -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p3#has_input">
+        <rdfs:domain rdf:resource="http://example.org/p3#Perform_Qualitative_risk_Analysis"/>
+        <rdfs:range rdf:resource="http://example.org/p3#Perform_Qualitative_risk_Analysis_Inputs"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p3#has_output -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p3#has_output">
+        <rdfs:domain rdf:resource="http://example.org/p3#Perform_Qualitative_risk_Analysis"/>
+        <rdfs:range rdf:resource="http://example.org/p3#Perform_Qualitative_risk_Analysis_Outputs"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p3#has_tools_and_techniques -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p3#has_tools_and_techniques">
+        <rdfs:domain rdf:resource="http://example.org/p3#Perform_Qualitative_risk_Analysis"/>
+        <rdfs:range rdf:resource="http://example.org/p3#Perform_Qualitative_risk_Analysis_tools_and_techniques"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p3#include_conduct -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p3#include_conduct">
+        <rdfs:range rdf:resource="http://example.org/p3#conduct"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p3#include_project -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p3#include_project"/>
+    
+
+
+    <!-- http://example.org/p3#include_update -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p3#include_update">
+        <rdfs:domain rdf:resource="http://example.org/p3#Project_documents_updates"/>
+        <rdfs:range rdf:resource="http://example.org/p3#update"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p3#investigates_risks -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p3#investigates_risks">
+        <rdfs:domain rdf:resource="http://example.org/p3#risk_Probability_and_Impact_Assessment"/>
+        <rdfs:range rdf:resource="http://example.org/p3#risks"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p3#prioritize_risk -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p3#prioritize_risk"/>
+    
+
+
+    <!-- http://example.org/p3#provide_risk -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p3#provide_risk"/>
+    
+
+
+    <!-- http://example.org/p3#require_determine -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p3#require_determine">
+        <rdfs:range rdf:resource="http://example.org/p3#determine"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p44#analysis_approach -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p44#analysis_approach">
+        <rdfs:domain rdf:resource="http://example.org/p44#Quantitative_risk_Analysis_and_Modeling_techniques"/>
+        <rdfs:range rdf:resource="http://example.org/p44#approach"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p44#evaluate_probability -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p44#evaluate_probability">
+        <rdfs:range rdf:resource="http://example.org/p44#probability"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p44#has_input -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p44#has_input">
+        <rdfs:domain rdf:resource="http://example.org/p44#Perform_Quantitative_risk_Analysis"/>
+        <rdfs:range rdf:resource="http://example.org/p44#Perform_Quantitative_risk_Analysis_Inputs"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p44#has_output -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p44#has_output">
+        <rdfs:domain rdf:resource="http://example.org/p44#Perform_Quantitative_risk_Analysis"/>
+        <rdfs:range rdf:resource="http://example.org/p44#Perform_Quantitative_risk_Analysis_Outputs"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p44#has_tools_and_techniques -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p44#has_tools_and_techniques">
+        <rdfs:domain rdf:resource="http://example.org/p44#Perform_Quantitative_risk_Analysis"/>
+        <rdfs:range rdf:resource="http://example.org/p44#Perform_Quantitative_risk_Analysis_tools_and_techniques"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p44#impact_project -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p44#impact_project">
+        <rdfs:domain rdf:resource="http://example.org/p44#data_Gathering_and_representation_techniques"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p44#influence_informations -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p44#influence_informations">
+        <rdfs:range rdf:resource="http://example.org/p44#informations"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p44#provide_analysis -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p44#provide_analysis">
+        <rdfs:range rdf:resource="http://example.org/p44#analysis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p44#provide_guideline -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p44#provide_guideline">
+        <rdfs:domain rdf:resource="http://example.org/p44#cost_Management_Plan"/>
+        <rdfs:range rdf:resource="http://example.org/p44#guideline"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p44#provide_reference -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p44#provide_reference">
+        <rdfs:range rdf:resource="http://example.org/p44#reference"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p44#provide_reserve -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p44#provide_reserve">
+        <rdfs:domain rdf:resource="http://example.org/p44#Schedule_Management_Plan"/>
+        <rdfs:range rdf:resource="http://example.org/p44#reserve"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p44#result_analysis -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p44#result_analysis">
+        <rdfs:range rdf:resource="http://example.org/p44#analysis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p44#use_analysis -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p44#use_analysis">
+        <rdfs:range rdf:resource="http://example.org/p44#analysis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/p5#has -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/p5#has">
+        <rdfs:domain rdf:resource="http://example.org/p5#Plan_risk_Responses"/>
+        <rdfs:range rdf:resource="http://example.org/p5#Plan_risk_Responses_inputs"/>
+        <rdfs:range rdf:resource="http://example.org/p5#Plan_risk_Responses_outputs"/>
+        <rdfs:range rdf:resource="http://example.org/p5#Plan_risk_Responses_tools_and_techniques"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/proc66#be_schedule -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/proc66#be_schedule">
+        <rdfs:domain rdf:resource="http://example.org/final#risk_reassessment"/>
+        <rdfs:range rdf:resource="http://example.org/proc66#schedule"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/proc66#compare_achievement -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/proc66#compare_achievement">
+        <rdfs:domain rdf:resource="http://example.org/final#technical_Performance_Measurement"/>
+        <rdfs:range rdf:resource="http://example.org/proc66#achievement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/proc66#compare_reserve -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/proc66#compare_reserve">
+        <rdfs:domain rdf:resource="http://example.org/final#reserve_Analysis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/proc66#has_inputs -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/proc66#has_inputs">
+        <rdfs:domain rdf:resource="http://example.org/final#Control_Risk"/>
+        <rdfs:range rdf:resource="http://example.org/final#Control_Risk_Inputs"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/proc66#has_outputs -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/proc66#has_outputs">
+        <rdfs:domain rdf:resource="http://example.org/final#Control_Risk"/>
+        <rdfs:range rdf:resource="http://example.org/final#Control_Risk_Outputs"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/proc66#has_tools_and_techniques -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/proc66#has_tools_and_techniques">
+        <rdfs:domain rdf:resource="http://example.org/final#Control_Risk"/>
+        <rdfs:range rdf:resource="http://example.org/final#Control_Risk_tools_and_techniques"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/proc66#have_input -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/proc66#have_input">
+        <rdfs:domain rdf:resource="http://example.org/final#risk_register"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/proc66#identified_risk -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/proc66#identified_risk">
+        <rdfs:domain rdf:resource="http://example.org/final#risk_Audits"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/proc66#identify_opportunity -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/proc66#identify_opportunity">
+        <rdfs:range rdf:resource="http://example.org/proc66#opportunity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/proc66#include_response -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/proc66#include_response">
+        <rdfs:range rdf:resource="http://example.org/proc66#response"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/proc66#include_structure -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/proc66#include_structure">
+        <rdfs:domain rdf:resource="http://example.org/final#organizational_Process_Assets_updates"/>
+        <rdfs:range rdf:resource="http://example.org/proc66#structure"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/proc66#monitore_performance -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/proc66#monitore_performance">
+        <rdfs:domain rdf:resource="http://example.org/final#Variance_and_trend_Analysis"/>
+        <rdfs:range rdf:resource="http://example.org/proc66#performance"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/proc66#prepare_change -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/proc66#prepare_change">
+        <rdfs:domain rdf:resource="http://example.org/final#change_requests"/>
+        <rdfs:range rdf:resource="http://example.org/proc66#change"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/proc66#provide_control -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/proc66#provide_control">
+        <rdfs:range rdf:resource="http://example.org/proc66#control"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/proc66#provide_information -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/proc66#provide_information">
+        <rdfs:domain rdf:resource="http://example.org/final#Work_Performance_reports"/>
+        <rdfs:range rdf:resource="http://example.org/proc66#information"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/proc66#provide_mechanism -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/proc66#provide_mechanism">
+        <rdfs:domain rdf:resource="http://example.org/final#Work_Performance_Information"/>
+        <rdfs:range rdf:resource="http://example.org/proc66#mechanism"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/proc66#relate_result -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/proc66#relate_result">
+        <rdfs:domain rdf:resource="http://example.org/final#Work_Performance_data"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/proc66#revise_change -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/proc66#revise_change">
+        <rdfs:domain rdf:resource="http://example.org/final#Project_Management_Plan_updates"/>
+        <rdfs:range rdf:resource="http://example.org/proc66#change"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/projet#be -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/projet#be">
+        <rdfs:domain rdf:resource="http://example.org/projet#Plan_risk_Management"/>
+        <rdfs:range rdf:resource="http://example.org/projet#define"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/projet#define -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/projet#define">
+        <rdfs:domain rdf:resource="http://example.org/final#Analytical_techniques"/>
+        <rdfs:range rdf:resource="http://example.org/projet#context"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/projet#describe -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/projet#describe">
+        <rdfs:domain rdf:resource="http://example.org/projet#risk_Management_Plan"/>
+        <rdfs:range rdf:resource="http://example.org/projet#activity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/projet#has_inputs -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/projet#has_inputs">
+        <rdfs:domain rdf:resource="http://example.org/projet#Plan_risk_Management"/>
+        <rdfs:range rdf:resource="http://example.org/projet#Plan_risk_Management_inputs"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/projet#has_outputs -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/projet#has_outputs">
+        <rdfs:domain rdf:resource="http://example.org/projet#Plan_risk_Management"/>
+        <rdfs:range rdf:resource="http://example.org/projet#Plan_risk_Management_outputs"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/projet#has_tools_and_techniques -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/projet#has_tools_and_techniques">
+        <rdfs:domain rdf:resource="http://example.org/projet#Plan_risk_Management"/>
+        <rdfs:range rdf:resource="http://example.org/projet#Plan_risk_Management_tools_and_techniques"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/projet#have -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/projet#have">
+        <rdfs:domain rdf:resource="http://example.org/projet#Expert_Judgment"/>
+        <rdfs:range rdf:resource="http://example.org/projet#association"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/projet#influence -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/projet#influence">
+        <rdfs:domain rdf:resource="http://example.org/projet#Enterprise_Environmental_Factors"/>
+        <rdfs:domain rdf:resource="http://example.org/projet#organizational_Process_Assets"/>
+        <rdfs:range rdf:resource="http://example.org/projet#process"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/projet#plan -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/projet#plan">
+        <rdfs:domain rdf:resource="http://example.org/projet#Meetings"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://example.org/projet#provide -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/projet#provide">
+        <rdfs:domain rdf:resource="http://example.org/projet#Project_Management_Plan"/>
+        <rdfs:domain rdf:resource="http://example.org/projet#Project_charter"/>
+        <rdfs:domain rdf:resource="http://example.org/projet#Stakeholder_register"/>
+        <rdfs:range rdf:resource="http://example.org/projet#area"/>
+        <rdfs:range rdf:resource="http://example.org/projet#requirement"/>
+        <rdfs:range rdf:resource="http://example.org/projet#role"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/p5#Plan_Risk_Responses_be_process_develop_option_action_enhance_opportunity_reduce_threat_project_objective -->
+
+    <owl:DatatypeProperty rdf:about="http://example.org/p5#Plan_Risk_Responses_be_process_develop_option_action_enhance_opportunity_reduce_threat_project_objective">
+        <rdfs:domain rdf:resource="http://example.org/p5#Plan_risk_Responses"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/final#Analytical_techniques -->
+
+    <owl:Class rdf:about="http://example.org/final#Analytical_techniques"/>
+    
+
+
+    <!-- http://example.org/final#Control_Risk -->
+
+    <owl:Class rdf:about="http://example.org/final#Control_Risk"/>
+    
+
+
+    <!-- http://example.org/final#Control_Risk_Inputs -->
+
+    <owl:Class rdf:about="http://example.org/final#Control_Risk_Inputs">
+        <rdfs:subClassOf rdf:resource="http://example.org/final#Control_Risk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/final#Control_Risk_Outputs -->
+
+    <owl:Class rdf:about="http://example.org/final#Control_Risk_Outputs">
+        <rdfs:subClassOf rdf:resource="http://example.org/final#Control_Risk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/final#Control_Risk_tools_and_techniques -->
+
+    <owl:Class rdf:about="http://example.org/final#Control_Risk_tools_and_techniques">
+        <rdfs:subClassOf rdf:resource="http://example.org/final#Control_Risk"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/final#Project_Management_Plan_updates -->
+
+    <owl:Class rdf:about="http://example.org/final#Project_Management_Plan_updates"/>
+    
+
+
+    <!-- http://example.org/final#Variance_and_trend_Analysis -->
+
+    <owl:Class rdf:about="http://example.org/final#Variance_and_trend_Analysis"/>
+    
+
+
+    <!-- http://example.org/final#Work_Performance_Information -->
+
+    <owl:Class rdf:about="http://example.org/final#Work_Performance_Information"/>
+    
+
+
+    <!-- http://example.org/final#Work_Performance_data -->
+
+    <owl:Class rdf:about="http://example.org/final#Work_Performance_data"/>
+    
+
+
+    <!-- http://example.org/final#Work_Performance_reports -->
+
+    <owl:Class rdf:about="http://example.org/final#Work_Performance_reports"/>
+    
+
+
+    <!-- http://example.org/final#change_requests -->
+
+    <owl:Class rdf:about="http://example.org/final#change_requests"/>
+    
+
+
+    <!-- http://example.org/final#organizational_Process_Assets_updates -->
+
+    <owl:Class rdf:about="http://example.org/final#organizational_Process_Assets_updates"/>
+    
+
+
+    <!-- http://example.org/final#reserve_Analysis -->
+
+    <owl:Class rdf:about="http://example.org/final#reserve_Analysis"/>
+    
+
+
+    <!-- http://example.org/final#risk_Audits -->
+
+    <owl:Class rdf:about="http://example.org/final#risk_Audits"/>
+    
+
+
+    <!-- http://example.org/final#risk_reassessment -->
+
+    <owl:Class rdf:about="http://example.org/final#risk_reassessment"/>
+    
+
+
+    <!-- http://example.org/final#risk_register -->
+
+    <owl:Class rdf:about="http://example.org/final#risk_register"/>
+    
+
+
+    <!-- http://example.org/final#technical_Performance_Measurement -->
+
+    <owl:Class rdf:about="http://example.org/final#technical_Performance_Measurement"/>
+    
+
+
+    <!-- http://example.org/p2#Activity_cost_Estimates -->
+
+    <owl:Class rdf:about="http://example.org/p2#Activity_cost_Estimates"/>
+    
+
+
+    <!-- http://example.org/p2#Activity_duration_Estimates -->
+
+    <owl:Class rdf:about="http://example.org/p2#Activity_duration_Estimates"/>
+    
+
+
+    <!-- http://example.org/p2#Assumptions_Analysis -->
+
+    <owl:Class rdf:about="http://example.org/p2#Assumptions_Analysis"/>
+    
+
+
+    <!-- http://example.org/p2#Human_resource_Management_Plan -->
+
+    <owl:Class rdf:about="http://example.org/p2#Human_resource_Management_Plan"/>
+    
+
+
+    <!-- http://example.org/p2#Identify_Risk -->
+
+    <owl:Class rdf:about="http://example.org/p2#Identify_Risk">
+        <rdfs:subClassOf rdf:resource="http://example.org/p2#Identify_risks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/p2#Identify_outputs -->
+
+    <owl:Class rdf:about="http://example.org/p2#Identify_outputs"/>
+    
+
+
+    <!-- http://example.org/p2#Identify_risk -->
+
+    <owl:Class rdf:about="http://example.org/p2#Identify_risk"/>
+    
+
+
+    <!-- http://example.org/p2#Identify_risk_ -->
+
+    <owl:Class rdf:about="http://example.org/p2#Identify_risk_"/>
+    
+
+
+    <!-- http://example.org/p2#Identify_risk_inputs -->
+
+    <owl:Class rdf:about="http://example.org/p2#Identify_risk_inputs"/>
+    
+
+
+    <!-- http://example.org/p2#Identify_risk_outputs -->
+
+    <owl:Class rdf:about="http://example.org/p2#Identify_risk_outputs"/>
+    
+
+
+    <!-- http://example.org/p2#Identify_risk_tools_and_techniques -->
+
+    <owl:Class rdf:about="http://example.org/p2#Identify_risk_tools_and_techniques"/>
+    
+
+
+    <!-- http://example.org/p2#Identify_risks -->
+
+    <owl:Class rdf:about="http://example.org/p2#Identify_risks"/>
+    
+
+
+    <!-- http://example.org/p2#Identify_tools_and_techniques -->
+
+    <owl:Class rdf:about="http://example.org/p2#Identify_tools_and_techniques"/>
+    
+
+
+    <!-- http://example.org/p2#Information_Gathering_techniques -->
+
+    <owl:Class rdf:about="http://example.org/p2#Information_Gathering_techniques"/>
+    
+
+
+    <!-- http://example.org/p2#Procurement_documents -->
+
+    <owl:Class rdf:about="http://example.org/p2#Procurement_documents"/>
+    
+
+
+    <!-- http://example.org/p2#Project_documents -->
+
+    <owl:Class rdf:about="http://example.org/p2#Project_documents"/>
+    
+
+
+    <!-- http://example.org/p2#Quality_Management_Plan -->
+
+    <owl:Class rdf:about="http://example.org/p2#Quality_Management_Plan"/>
+    
+
+
+    <!-- http://example.org/p2#SWot_Analysis -->
+
+    <owl:Class rdf:about="http://example.org/p2#SWot_Analysis"/>
+    
+
+
+    <!-- http://example.org/p2#affect -->
+
+    <owl:Class rdf:about="http://example.org/p2#affect"/>
+    
+
+
+    <!-- http://example.org/p2#assessment -->
+
+    <owl:Class rdf:about="http://example.org/p2#assessment"/>
+    
+
+
+    <!-- http://example.org/p2#assumption -->
+
+    <owl:Class rdf:about="http://example.org/p2#assumption"/>
+    
+
+
+    <!-- http://example.org/p2#attitude -->
+
+    <owl:Class rdf:about="http://example.org/p2#attitude"/>
+    
+
+
+    <!-- http://example.org/p2#cause -->
+
+    <owl:Class rdf:about="http://example.org/p2#cause"/>
+    
+
+
+    <!-- http://example.org/p2#checklist_Analysis -->
+
+    <owl:Class rdf:about="http://example.org/p2#checklist_Analysis"/>
+    
+
+
+    <!-- http://example.org/p2#cost_Management_Plan -->
+
+    <owl:Class rdf:about="http://example.org/p2#cost_Management_Plan"/>
+    
+
+
+    <!-- http://example.org/p2#diagramming_techniques -->
+
+    <owl:Class rdf:about="http://example.org/p2#diagramming_techniques"/>
+    
+
+
+    <!-- http://example.org/p2#documentation_reviews -->
+
+    <owl:Class rdf:about="http://example.org/p2#documentation_reviews"/>
+    
+
+
+    <!-- http://example.org/p2#input -->
+
+    <owl:Class rdf:about="http://example.org/p2#input"/>
+    
+
+
+    <!-- http://example.org/p2#knowledge -->
+
+    <owl:Class rdf:about="http://example.org/p2#knowledge"/>
+    
+
+
+    <!-- http://example.org/p2#measure -->
+
+    <owl:Class rdf:about="http://example.org/p2#measure"/>
+    
+
+
+    <!-- http://example.org/p2#plan -->
+
+    <owl:Class rdf:about="http://example.org/p2#plan"/>
+    
+
+
+    <!-- http://example.org/p2#planning -->
+
+    <owl:Class rdf:about="http://example.org/p2#planning"/>
+    
+
+
+    <!-- http://example.org/p2#project -->
+
+    <owl:Class rdf:about="http://example.org/p2#project"/>
+    
+
+
+    <!-- http://example.org/p2#responsibility -->
+
+    <owl:Class rdf:about="http://example.org/p2#responsibility"/>
+    
+
+
+    <!-- http://example.org/p2#result -->
+
+    <owl:Class rdf:about="http://example.org/p2#result"/>
+    
+
+
+    <!-- http://example.org/p2#risk -->
+
+    <owl:Class rdf:about="http://example.org/p2#risk"/>
+    
+
+
+    <!-- http://example.org/p2#strengths -->
+
+    <owl:Class rdf:about="http://example.org/p2#strengths"/>
+    
+
+
+    <!-- http://example.org/p2#team -->
+
+    <owl:Class rdf:about="http://example.org/p2#team"/>
+    
+
+
+    <!-- http://example.org/p3#Perform_Qualitative_risk_Analysis -->
+
+    <owl:Class rdf:about="http://example.org/p3#Perform_Qualitative_risk_Analysis"/>
+    
+
+
+    <!-- http://example.org/p3#Perform_Qualitative_risk_Analysis_Inputs -->
+
+    <owl:Class rdf:about="http://example.org/p3#Perform_Qualitative_risk_Analysis_Inputs">
+        <rdfs:subClassOf rdf:resource="http://example.org/p3#Perform_Qualitative_risk_Analysis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/p3#Perform_Qualitative_risk_Analysis_Outputs -->
+
+    <owl:Class rdf:about="http://example.org/p3#Perform_Qualitative_risk_Analysis_Outputs">
+        <rdfs:subClassOf rdf:resource="http://example.org/p3#Perform_Qualitative_risk_Analysis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/p3#Perform_Qualitative_risk_Analysis_tools_and_techniques -->
+
+    <owl:Class rdf:about="http://example.org/p3#Perform_Qualitative_risk_Analysis_tools_and_techniques">
+        <rdfs:subClassOf rdf:resource="http://example.org/p3#Perform_Qualitative_risk_Analysis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/p3#Probability_and_Impact_Matrix -->
+
+    <owl:Class rdf:about="http://example.org/p3#Probability_and_Impact_Matrix"/>
+    
+
+
+    <!-- http://example.org/p3#Project_documents_updates -->
+
+    <owl:Class rdf:about="http://example.org/p3#Project_documents_updates"/>
+    
+
+
+    <!-- http://example.org/p3#Scope_Baseline -->
+
+    <owl:Class rdf:about="http://example.org/p3#Scope_Baseline"/>
+    
+
+
+    <!-- http://example.org/p3#attention -->
+
+    <owl:Class rdf:about="http://example.org/p3#attention"/>
+    
+
+
+    <!-- http://example.org/p3#conduct -->
+
+    <owl:Class rdf:about="http://example.org/p3#conduct"/>
+    
+
+
+    <!-- http://example.org/p3#determine -->
+
+    <owl:Class rdf:about="http://example.org/p3#determine"/>
+    
+
+
+    <!-- http://example.org/p3#management -->
+
+    <owl:Class rdf:about="http://example.org/p3#management"/>
+    
+
+
+    <!-- http://example.org/p3#rating -->
+
+    <owl:Class rdf:about="http://example.org/p3#rating"/>
+    
+
+
+    <!-- http://example.org/p3#risk_Probability_and_Impact_Assessment -->
+
+    <owl:Class rdf:about="http://example.org/p3#risk_Probability_and_Impact_Assessment"/>
+    
+
+
+    <!-- http://example.org/p3#risk_categorization -->
+
+    <owl:Class rdf:about="http://example.org/p3#risk_categorization"/>
+    
+
+
+    <!-- http://example.org/p3#risk_data_Quality_Assessment -->
+
+    <owl:Class rdf:about="http://example.org/p3#risk_data_Quality_Assessment"/>
+    
+
+
+    <!-- http://example.org/p3#risk_urgency_Assessment -->
+
+    <owl:Class rdf:about="http://example.org/p3#risk_urgency_Assessment"/>
+    
+
+
+    <!-- http://example.org/p3#risks -->
+
+    <owl:Class rdf:about="http://example.org/p3#risks"/>
+    
+
+
+    <!-- http://example.org/p3#update -->
+
+    <owl:Class rdf:about="http://example.org/p3#update"/>
+    
+
+
+    <!-- http://example.org/p44#Perform_Quantitative_risk_Analysis -->
+
+    <owl:Class rdf:about="http://example.org/p44#Perform_Quantitative_risk_Analysis">
+        <rdfs:subClassOf rdf:resource="http://example.org/p44#Perform_Quantitave_risk_Analysis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/p44#Perform_Quantitative_risk_Analysis_Inputs -->
+
+    <owl:Class rdf:about="http://example.org/p44#Perform_Quantitative_risk_Analysis_Inputs">
+        <rdfs:subClassOf rdf:resource="http://example.org/p44#Perform_Quantitave_risk_Analysis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/p44#Perform_Quantitative_risk_Analysis_Outputs -->
+
+    <owl:Class rdf:about="http://example.org/p44#Perform_Quantitative_risk_Analysis_Outputs">
+        <rdfs:subClassOf rdf:resource="http://example.org/p44#Perform_Quantitave_risk_Analysis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/p44#Perform_Quantitative_risk_Analysis_tools_and_techniques -->
+
+    <owl:Class rdf:about="http://example.org/p44#Perform_Quantitative_risk_Analysis_tools_and_techniques">
+        <rdfs:subClassOf rdf:resource="http://example.org/p44#Perform_Quantitave_risk_Analysis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/p44#Perform_Quantitave_risk_Analysis -->
+
+    <owl:Class rdf:about="http://example.org/p44#Perform_Quantitave_risk_Analysis"/>
+    
+
+
+    <!-- http://example.org/p44#Quantitative_risk_Analysis_and_Modeling_techniques -->
+
+    <owl:Class rdf:about="http://example.org/p44#Quantitative_risk_Analysis_and_Modeling_techniques"/>
+    
+
+
+    <!-- http://example.org/p44#Schedule_Management_Plan -->
+
+    <owl:Class rdf:about="http://example.org/p44#Schedule_Management_Plan"/>
+    
+
+
+    <!-- http://example.org/p44#analysis -->
+
+    <owl:Class rdf:about="http://example.org/p44#analysis"/>
+    
+
+
+    <!-- http://example.org/p44#approach -->
+
+    <owl:Class rdf:about="http://example.org/p44#approach"/>
+    
+
+
+    <!-- http://example.org/p44#cost_Management_Plan -->
+
+    <owl:Class rdf:about="http://example.org/p44#cost_Management_Plan"/>
+    
+
+
+    <!-- http://example.org/p44#data_Gathering_and_representation_techniques -->
+
+    <owl:Class rdf:about="http://example.org/p44#data_Gathering_and_representation_techniques"/>
+    
+
+
+    <!-- http://example.org/p44#guideline -->
+
+    <owl:Class rdf:about="http://example.org/p44#guideline"/>
+    
+
+
+    <!-- http://example.org/p44#informations -->
+
+    <owl:Class rdf:about="http://example.org/p44#informations"/>
+    
+
+
+    <!-- http://example.org/p44#probability -->
+
+    <owl:Class rdf:about="http://example.org/p44#probability"/>
+    
+
+
+    <!-- http://example.org/p44#reference -->
+
+    <owl:Class rdf:about="http://example.org/p44#reference"/>
+    
+
+
+    <!-- http://example.org/p44#reserve -->
+
+    <owl:Class rdf:about="http://example.org/p44#reserve"/>
+    
+
+
+    <!-- http://example.org/p5#Plan_risk_Responses -->
+
+    <owl:Class rdf:about="http://example.org/p5#Plan_risk_Responses">
+        <rdfs:subClassOf rdf:resource="http://example.org/p5#Plan_risk_responses"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/p5#Plan_risk_Responses_inputs -->
+
+    <owl:Class rdf:about="http://example.org/p5#Plan_risk_Responses_inputs">
+        <rdfs:subClassOf rdf:resource="http://example.org/p5#Plan_risk_responses"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/p5#Plan_risk_Responses_outputs -->
+
+    <owl:Class rdf:about="http://example.org/p5#Plan_risk_Responses_outputs">
+        <rdfs:subClassOf rdf:resource="http://example.org/p5#Plan_risk_responses"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/p5#Plan_risk_Responses_tools_and_techniques -->
+
+    <owl:Class rdf:about="http://example.org/p5#Plan_risk_Responses_tools_and_techniques">
+        <rdfs:subClassOf rdf:resource="http://example.org/p5#Plan_risk_responses"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/p5#Plan_risk_responses -->
+
+    <owl:Class rdf:about="http://example.org/p5#Plan_risk_responses"/>
+    
+
+
+    <!-- http://example.org/proc66#achievement -->
+
+    <owl:Class rdf:about="http://example.org/proc66#achievement"/>
+    
+
+
+    <!-- http://example.org/proc66#change -->
+
+    <owl:Class rdf:about="http://example.org/proc66#change"/>
+    
+
+
+    <!-- http://example.org/proc66#control -->
+
+    <owl:Class rdf:about="http://example.org/proc66#control"/>
+    
+
+
+    <!-- http://example.org/proc66#information -->
+
+    <owl:Class rdf:about="http://example.org/proc66#information"/>
+    
+
+
+    <!-- http://example.org/proc66#mechanism -->
+
+    <owl:Class rdf:about="http://example.org/proc66#mechanism"/>
+    
+
+
+    <!-- http://example.org/proc66#opportunity -->
+
+    <owl:Class rdf:about="http://example.org/proc66#opportunity"/>
+    
+
+
+    <!-- http://example.org/proc66#performance -->
+
+    <owl:Class rdf:about="http://example.org/proc66#performance"/>
+    
+
+
+    <!-- http://example.org/proc66#response -->
+
+    <owl:Class rdf:about="http://example.org/proc66#response"/>
+    
+
+
+    <!-- http://example.org/proc66#schedule -->
+
+    <owl:Class rdf:about="http://example.org/proc66#schedule"/>
+    
+
+
+    <!-- http://example.org/proc66#structure -->
+
+    <owl:Class rdf:about="http://example.org/proc66#structure"/>
+    
+
+
+    <!-- http://example.org/projet#Enterprise_Environmental_Factors -->
+
+    <owl:Class rdf:about="http://example.org/projet#Enterprise_Environmental_Factors"/>
+    
+
+
+    <!-- http://example.org/projet#Expert_Judgment -->
+
+    <owl:Class rdf:about="http://example.org/projet#Expert_Judgment"/>
+    
+
+
+    <!-- http://example.org/projet#Meetings -->
+
+    <owl:Class rdf:about="http://example.org/projet#Meetings"/>
+    
+
+
+    <!-- http://example.org/projet#Plan_risk_Management -->
+
+    <owl:Class rdf:about="http://example.org/projet#Plan_risk_Management">
+        <rdfs:comment rdf:resource="http://example.org/projet#Plan_Risk_Management_be_process_define_conduct_risk_management_activity_project"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/projet#Plan_risk_Management_inputs -->
+
+    <owl:Class rdf:about="http://example.org/projet#Plan_risk_Management_inputs">
+        <rdfs:subClassOf rdf:resource="http://example.org/projet#Plan_risk_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/projet#Plan_risk_Management_outputs -->
+
+    <owl:Class rdf:about="http://example.org/projet#Plan_risk_Management_outputs">
+        <rdfs:subClassOf rdf:resource="http://example.org/projet#Plan_risk_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/projet#Plan_risk_Management_tools_and_techniques -->
+
+    <owl:Class rdf:about="http://example.org/projet#Plan_risk_Management_tools_and_techniques">
+        <rdfs:subClassOf rdf:resource="http://example.org/projet#Plan_risk_Management"/>
+    </owl:Class>
+    
+
+
+    <!-- http://example.org/projet#Project_Management_Plan -->
+
+    <owl:Class rdf:about="http://example.org/projet#Project_Management_Plan"/>
+    
+
+
+    <!-- http://example.org/projet#Project_charter -->
+
+    <owl:Class rdf:about="http://example.org/projet#Project_charter"/>
+    
+
+
+    <!-- http://example.org/projet#Stakeholder_register -->
+
+    <owl:Class rdf:about="http://example.org/projet#Stakeholder_register"/>
+    
+
+
+    <!-- http://example.org/projet#activity -->
+
+    <owl:Class rdf:about="http://example.org/projet#activity"/>
+    
+
+
+    <!-- http://example.org/projet#area -->
+
+    <owl:Class rdf:about="http://example.org/projet#area"/>
+    
+
+
+    <!-- http://example.org/projet#association -->
+
+    <owl:Class rdf:about="http://example.org/projet#association"/>
+    
+
+
+    <!-- http://example.org/projet#context -->
+
+    <owl:Class rdf:about="http://example.org/projet#context"/>
+    
+
+
+    <!-- http://example.org/projet#define -->
+
+    <owl:Class rdf:about="http://example.org/projet#define"/>
+    
+
+
+    <!-- http://example.org/projet#organizational_Process_Assets -->
+
+    <owl:Class rdf:about="http://example.org/projet#organizational_Process_Assets"/>
+    
+
+
+    <!-- http://example.org/projet#process -->
+
+    <owl:Class rdf:about="http://example.org/projet#process"/>
+    
+
+
+    <!-- http://example.org/projet#requirement -->
+
+    <owl:Class rdf:about="http://example.org/projet#requirement"/>
+    
+
+
+    <!-- http://example.org/projet#risk_Management_Plan -->
+
+    <owl:Class rdf:about="http://example.org/projet#risk_Management_Plan"/>
+    
+
+
+    <!-- http://example.org/projet#role -->
+
+    <owl:Class rdf:about="http://example.org/projet#role"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/final#Analytical_techniques -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/final#Analytical_techniques">
+        <rdf:type rdf:resource="http://example.org/projet#Plan_risk_Management_tools_and_techniques"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/final#Enterprise_Environmental_Factors -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/final#Enterprise_Environmental_Factors">
+        <rdf:type rdf:resource="http://example.org/projet#Plan_risk_Management_inputs"/>
+        <rdfs:comment rdf:resource="http://example.org/projet#enterprise_factor_can_influence_Plan_Risk_Management_process_include_be_limit_to_risk_attitude_threshold_tolerance_describe_degree_risk_organization_will_withstand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/final#Expert_Judgment -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/final#Expert_Judgment">
+        <rdf:type rdf:resource="http://example.org/projet#Plan_risk_Management_tools_and_techniques"/>
+        <rdfs:comment rdf:resource="http://example.org/projet#management_Project_stakeholder_Project_manager_who_have_work_project_area_matter_expert_S_M_Es_business_project_area_Industry_group_consultant_association"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/final#Meetings -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/final#Meetings">
+        <rdf:type rdf:resource="http://example.org/final#Control_Risk_tools_and_techniques"/>
+        <rdf:type rdf:resource="http://example.org/projet#Plan_risk_Management_tools_and_techniques"/>
+        <rdfs:comment rdf:resource="http://example.org/projet#Project_team_hold_planning_meeting_develop_risk_management_plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/final#Project_Management_Plan -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/final#Project_Management_Plan">
+        <rdf:type rdf:resource="http://example.org/final#Control_Risk_Inputs"/>
+        <rdf:type rdf:resource="http://example.org/projet#Plan_risk_Management_inputs"/>
+        <rdfs:comment rdf:resource="http://example.org/projet#project_management_plan_provide_state_riskaffected_area_include_scope_schedule_cost"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/final#Project_Management_Plan_updates -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/final#Project_Management_Plan_updates">
+        <rdf:type rdf:resource="http://example.org/final#Control_Risk_Outputs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/final#Project_charter -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/final#Project_charter">
+        <rdf:type rdf:resource="http://example.org/projet#Plan_risk_Management_inputs"/>
+        <rdfs:comment rdf:resource="http://example.org/projet#project_charter_can_provide_inputs_risk_project_description_requirement"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/final#Project_documents_updates -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/final#Project_documents_updates">
+        <rdf:type rdf:resource="http://example.org/final#Control_Risk_Outputs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/final#Stakeholder_register -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/final#Stakeholder_register">
+        <rdf:type rdf:resource="http://example.org/projet#Plan_risk_Management_inputs"/>
+        <rdfs:comment rdf:resource="http://example.org/projet#stakeholder_register_contain_detail_project_stakeholder_provide_overview_role"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/final#Variance_and_trend_Analysis -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/final#Variance_and_trend_Analysis">
+        <rdf:type rdf:resource="http://example.org/final#Control_Risk_tools_and_techniques"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/final#Work_Performance_Information -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/final#Work_Performance_Information">
+        <rdf:type rdf:resource="http://example.org/final#Control_Risk_Outputs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/final#Work_Performance_data -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/final#Work_Performance_data">
+        <rdf:type rdf:resource="http://example.org/final#Control_Risk_Inputs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/final#Work_Performance_reports -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/final#Work_Performance_reports">
+        <rdf:type rdf:resource="http://example.org/final#Control_Risk_Inputs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/final#change_requests -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/final#change_requests">
+        <rdf:type rdf:resource="http://example.org/final#Control_Risk_Outputs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/final#checklist_Analysis -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/final#checklist_Analysis">
+        <rdf:type rdf:resource="http://example.org/p2#Identify_tools_and_techniques"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/final#contingent_response_Strategies -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/final#contingent_response_Strategies">
+        <rdf:type rdf:resource="http://example.org/p5#Plan_risk_Responses_tools_and_techniques"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/final#organizational_Process_Assets -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/final#organizational_Process_Assets">
+        <rdf:type rdf:resource="http://example.org/projet#Plan_risk_Management_inputs"/>
+        <rdfs:comment rdf:resource="http://example.org/projet#Risk_category_definition_concept_term_Risk_statement_format_Standard_templates_Roles_responsibility_Authority_level_decision_making_Lessons_learn"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/final#organizational_Process_Assets_updates -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/final#organizational_Process_Assets_updates">
+        <rdf:type rdf:resource="http://example.org/final#Control_Risk_Outputs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/final#reserve_Analysis -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/final#reserve_Analysis">
+        <rdf:type rdf:resource="http://example.org/final#Control_Risk_tools_and_techniques"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/final#risk_Audits -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/final#risk_Audits">
+        <rdf:type rdf:resource="http://example.org/final#Control_Risk_tools_and_techniques"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/final#risk_Management_Plan -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/final#risk_Management_Plan">
+        <rdf:type rdf:resource="http://example.org/projet#Plan_risk_Management_outputs"/>
+        <rdfs:comment rdf:resource="http://example.org/projet#risk_management_plan_be_component_project_management_plan_describe_risk_management_activity_will_be_structure_performed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/final#risk_reassessment -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/final#risk_reassessment">
+        <rdf:type rdf:resource="http://example.org/final#Control_Risk_tools_and_techniques"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/final#risk_register -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/final#risk_register">
+        <rdf:type rdf:resource="http://example.org/final#Control_Risk_Inputs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/final#technical_Performance_Measurement -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/final#technical_Performance_Measurement">
+        <rdf:type rdf:resource="http://example.org/final#Control_Risk_tools_and_techniques"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p2#Human_resource_Management_Plan -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p2#Human_resource_Management_Plan">
+        <rdf:type rdf:resource="http://example.org/p2#Identify_risk_inputs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p2#Information_Gathering_techniques -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p2#Information_Gathering_techniques">
+        <rdf:type rdf:resource="http://example.org/p2#Identify_tools_and_techniques"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p2#Quality_Management_Plan -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p2#Quality_Management_Plan">
+        <rdf:type rdf:resource="http://example.org/p2#Identify_risk_inputs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p2#Schedule_Management_Plan -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p2#Schedule_Management_Plan">
+        <rdf:type rdf:resource="http://example.org/p2#Identify_risk_inputs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p2#cost_Management_Plan -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p2#cost_Management_Plan">
+        <rdf:type rdf:resource="http://example.org/p2#Identify_risk_inputs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p2#documentation_reviews -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p2#documentation_reviews">
+        <rdf:type rdf:resource="http://example.org/p2#Identify_tools_and_techniques"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p2#risk_Management_Plan_ -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p2#risk_Management_Plan_">
+        <rdf:type rdf:resource="http://example.org/p2#Identify_risk_inputs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p2#risk_register -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p2#risk_register">
+        <rdf:type rdf:resource="http://example.org/p2#Identify_outputs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p3#Enterprise_Environmental_Factors -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p3#Enterprise_Environmental_Factors">
+        <rdf:type rdf:resource="http://example.org/p3#Perform_Qualitative_risk_Analysis_Inputs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p3#Expert_Judgment -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p3#Expert_Judgment">
+        <rdf:type rdf:resource="http://example.org/p3#Perform_Qualitative_risk_Analysis_tools_and_techniques"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p3#Probability_and_Impact_Matrix -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p3#Probability_and_Impact_Matrix">
+        <rdf:type rdf:resource="http://example.org/p3#Perform_Qualitative_risk_Analysis_tools_and_techniques"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p3#Project_documents_updates -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p3#Project_documents_updates">
+        <rdf:type rdf:resource="http://example.org/p3#Perform_Qualitative_risk_Analysis_Outputs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p3#Scope_Baseline -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p3#Scope_Baseline">
+        <rdf:type rdf:resource="http://example.org/p3#Perform_Qualitative_risk_Analysis_Inputs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p3#organizational_Process_Assets -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p3#organizational_Process_Assets">
+        <rdf:type rdf:resource="http://example.org/p3#Perform_Qualitative_risk_Analysis_Inputs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p3#risk_Management_Plan -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p3#risk_Management_Plan">
+        <rdf:type rdf:resource="http://example.org/p3#Perform_Qualitative_risk_Analysis_Inputs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p3#risk_Probability_and_Impact_Assessment -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p3#risk_Probability_and_Impact_Assessment">
+        <rdf:type rdf:resource="http://example.org/p3#Perform_Qualitative_risk_Analysis_tools_and_techniques"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p3#risk_categorization -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p3#risk_categorization">
+        <rdf:type rdf:resource="http://example.org/p3#Perform_Qualitative_risk_Analysis_tools_and_techniques"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p3#risk_data_Quality_Assessment -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p3#risk_data_Quality_Assessment">
+        <rdf:type rdf:resource="http://example.org/p3#Perform_Qualitative_risk_Analysis_tools_and_techniques"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p3#risk_register -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p3#risk_register">
+        <rdf:type rdf:resource="http://example.org/p3#Perform_Qualitative_risk_Analysis_Inputs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p3#risk_urgency_Assessment -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p3#risk_urgency_Assessment">
+        <rdf:type rdf:resource="http://example.org/p3#Perform_Qualitative_risk_Analysis_tools_and_techniques"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p44#Enterprise_Environmental_Factors -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p44#Enterprise_Environmental_Factors">
+        <rdf:type rdf:resource="http://example.org/p44#Perform_Quantitative_risk_Analysis_Inputs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p44#Expert_Judgment -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p44#Expert_Judgment">
+        <rdf:type rdf:resource="http://example.org/p44#Perform_Quantitative_risk_Analysis_tools_and_techniques"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p44#Project_documents_updates -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p44#Project_documents_updates">
+        <rdf:type rdf:resource="http://example.org/p44#Perform_Quantitative_risk_Analysis_Outputs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p44#Quantitative_risk_Analysis_and_Modeling_techniques -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p44#Quantitative_risk_Analysis_and_Modeling_techniques">
+        <rdf:type rdf:resource="http://example.org/p44#Perform_Quantitative_risk_Analysis_tools_and_techniques"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p44#Schedule_Management_Plan -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p44#Schedule_Management_Plan">
+        <rdf:type rdf:resource="http://example.org/p44#Perform_Quantitative_risk_Analysis_Inputs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p44#cost_Management_Plan -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p44#cost_Management_Plan">
+        <rdf:type rdf:resource="http://example.org/p44#Perform_Quantitative_risk_Analysis_Inputs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p44#data_Gathering_and_representation_techniques -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p44#data_Gathering_and_representation_techniques">
+        <rdf:type rdf:resource="http://example.org/p44#Perform_Quantitative_risk_Analysis_tools_and_techniques"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p44#organizational_Process_Assets -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p44#organizational_Process_Assets">
+        <rdf:type rdf:resource="http://example.org/p44#Perform_Quantitative_risk_Analysis_Inputs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p44#risk_Management_Plan -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p44#risk_Management_Plan">
+        <rdf:type rdf:resource="http://example.org/p44#Perform_Quantitative_risk_Analysis_Inputs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p44#risk_register -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p44#risk_register">
+        <rdf:type rdf:resource="http://example.org/p44#Perform_Quantitative_risk_Analysis_Inputs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p5#Project_Management_Plan_updates -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p5#Project_Management_Plan_updates">
+        <rdf:type rdf:resource="http://example.org/p5#Plan_risk_Responses_outputs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p5#Project_documents_updates -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p5#Project_documents_updates">
+        <rdf:type rdf:resource="http://example.org/p5#Plan_risk_Responses_outputs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p5#Strategies_for_Positive_risks_or_opportunities -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p5#Strategies_for_Positive_risks_or_opportunities">
+        <rdf:type rdf:resource="http://example.org/p5#Plan_risk_Responses_tools_and_techniques"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p5#Strategies_for_negative_risks_or_threats -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p5#Strategies_for_negative_risks_or_threats">
+        <rdf:type rdf:resource="http://example.org/p5#Plan_risk_Responses_tools_and_techniques"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p5#risk_Management_Plan -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p5#risk_Management_Plan">
+        <rdf:type rdf:resource="http://example.org/p5#Plan_risk_Responses_inputs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://example.org/p5#risk_register -->
+
+    <owl:NamedIndividual rdf:about="http://example.org/p5#risk_register">
+        <rdf:type rdf:resource="http://example.org/p5#Plan_risk_Responses_inputs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://example.org/final#Analytical_techniques">
+        <rdfs:comment rdf:resource="http://example.org/projet#technique_be_use_understand_define_risk_management_context_project"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/final#Project_Management_Plan_updates">
+        <rdfs:comment rdf:resource="http://example.org/projet#correspond_component_document_project_management_plan_be_revise_reissued_reflect_approve_change"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/final#Variance_and_trend_Analysis">
+        <rdfs:comment rdf:resource="http://example.org/projet#Earned_value_analysis_method_project_variance_trend_analysis_may_be_use_monitoring_project_performance"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/final#Work_Performance_Information">
+        <rdfs:comment rdf:resource="http://example.org/projet#Work_performance_information_provide_mechanism_communicate_support_project_decision_making"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/final#Work_Performance_data">
+        <rdfs:comment rdf:resource="http://example.org/projet#Work_performance_data_relate_performance_result_impact_risk_include_be_Deliverable_status_Schedule_progress_Costs_incur"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/final#Work_Performance_reports">
+        <rdfs:comment rdf:resource="http://example.org/projet#Work_performance_report_take_information_performance_measurement_analyze_it_provide_project_work_performance_information"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/final#change_requests">
+        <rdfs:comment rdf:resource="http://example.org/projet#Change_request_be_prepared_submit_Perform_Integrated_Change_Control_process"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/final#organizational_Process_Assets_updates">
+        <rdfs:comment rdf:resource="http://example.org/projet#process_asset_may_be_update_include_Templates_risk_management_plan_Risk_breakdown_structure_Lessons_learn"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/final#reserve_Analysis">
+        <rdfs:comment rdf:resource="http://example.org/projet#Reserve_analysis_compare_amount_contingency_reserve_remain_amount_risk_remain_time_project_order_determine_remain_reserve_be"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/final#risk_Audits">
+        <rdfs:comment rdf:resource="http://example.org/projet#Risk_audit_examine_document_effectiveness_risk_response_deal_identified_risk_their_root_cause_effectiveness_risk_management_process"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/final#risk_reassessment">
+        <rdfs:comment rdf:resource="http://example.org/projet#Project_risk_reassessment_should_be_schedule"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/final#risk_register">
+        <rdfs:comment rdf:resource="http://example.org/projet#risk_register_have_input_include_identified_risk_risk_owner"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/final#technical_Performance_Measurement">
+        <rdfs:comment rdf:resource="http://example.org/projet#performance_measurement_compare_accomplishment_project_execution_schedule_achievement"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/p3#Probability_and_Impact_Matrix">
+        <rdfs:comment rdf:resource="http://example.org/projet#Probability_Impact_Matrix_evaluate_risk_importance_priority_attention"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/p3#Project_documents_updates">
+        <rdfs:comment rdf:resource="http://example.org/projet#Project_Documents_Updates_include_Risk_register_update_Assumptions_log_update"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/p3#Scope_Baseline">
+        <rdfs:comment rdf:resource="http://example.org/projet#scope_baseline_evaluate_uncertainty_project"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/p3#risk_Probability_and_Impact_Assessment">
+        <rdfs:comment rdf:resource="http://example.org/projet#Risk_probability_assessment_investigate_likelihood_risk_will_occur"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/p3#risk_categorization">
+        <rdfs:comment rdf:resource="http://example.org/projet#risk_categorization_help_determine_work_package_activity_project_phase_role_project"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/p3#risk_data_Quality_Assessment">
+        <rdfs:comment rdf:resource="http://example.org/projet#risk_data_Quality_Assessment_evaluate_degree_data_risk_be_risk_management"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/p3#risk_urgency_Assessment">
+        <rdfs:comment rdf:resource="http://example.org/projet#Risk_Urgency_Assessment_give_risk_severity_rating"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/p44#Quantitative_risk_Analysis_and_Modeling_techniques">
+        <rdfs:comment rdf:resource="http://example.org/projet#use_technique_use_eventoriented_projectoriented_analysis_approach"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/p44#Schedule_Management_Plan">
+        <rdfs:comment rdf:resource="http://example.org/projet#schedule_management_plan_provide_guideline_establish_manage_risk_reserve"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/p44#cost_Management_Plan">
+        <rdfs:comment rdf:resource="http://example.org/projet#cost_management_plan_provide_guideline_establish_manage_risk_reserve"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://example.org/p44#data_Gathering_and_representation_techniques">
+        <rdfs:comment rdf:resource="http://example.org/projet#Interviewing_technique_draw_experience_data_quantify_probability_impact_risk_project_objective_use_Modeling_simulation"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

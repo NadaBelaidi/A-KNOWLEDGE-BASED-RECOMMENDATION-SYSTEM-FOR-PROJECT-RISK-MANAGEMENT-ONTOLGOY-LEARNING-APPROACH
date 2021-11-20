@@ -1,0 +1,93 @@
+,concept,annotation,pattern,subject,property,object,individual,Unnamed: 0,Unnamed: 0.1
+0,Control Risk,Control Risks be process implement risk response plan track identified risk monitor risk identify risk evaluate risk process effectiveness project,['risk evaluate project'],Control Risk,evaluate ,project,,,
+1,Control Risk Inputs,,[],,,,,,
+2,Control Risk Outputs,,[],,,,,,
+3,Control Risk tools_and_techniques,,[],,,,,,
+0,Control Risk tools_and_techniques,Project risk reassessment should be schedule,[' reassessment be schedule'],risk reassessment,be,schedule,risk reassessment,,
+1,Control Risk tools_and_techniques,Risk audit examine document effectiveness risk response deal identified risk their root cause effectiveness risk management process,[' deal identified risk'],risk Audits,identified,risk,risk Audits,,
+2,Control Risk tools_and_techniques,Earned value analysis method project variance trend analysis may be use monitoring project performance,[' variance monitore performance'],Variance and trend Analysis,monitore,performance,Variance and trend Analysis,,
+3,Control Risk tools_and_techniques,performance measurement compare accomplishment project execution schedule achievement,[' measurement compare achievement'],technical Performance Measurement,compare,achievement,technical Performance Measurement,,
+4,Control Risk tools_and_techniques,Reserve analysis compare amount contingency reserve remain amount risk remain time project order determine remain reserve be,[' analysis compare reserve'],reserve Analysis,compare,reserve,reserve Analysis,,
+5,Control Risk tools_and_techniques,discussion risk make it more people will identify risk opportunity,[' people identify opportunity'],Meetings,identify,opportunity,Meetings,,
+0,Control Risk Outputs,Work performance information provide mechanism communicate support project decision making,[' information provide mechanism'],Work Performance Information,provide,mechanism,Work Performance Information,,
+1,Control Risk Outputs,Change request be prepared submit Perform Integrated Change Control process,[' requests prepare change'],change requests,prepare,change,change requests,,
+2,Control Risk Outputs,correspond component document project management plan be revise reissued reflect approve change,[' updates revise change'],Project Management Plan updates,revise,change,Project Management Plan updates,,
+3,Control Risk Outputs,Project document may be update result Control Risk process include Outcomes risk reassessment risk audit risk review outcome project risk risk response,[' documments include response'],Project documents updates,include,response,Project documents updates,,
+4,Control Risk Outputs,process asset may be update include Templates risk management plan Risk breakdown structure Lessons learn,[' assets include structure'],organizational Process Assets updates,include,structure,organizational Process Assets updates,,
+0,Control Risk Inputs,project management plan provide guidance risk monitoring control,[' plan provide control'],Project Management Plan,provide,control,Project Management Plan,,
+1,Control Risk Inputs,risk register have input include identified risk risk owner,[' register have input'],risk register,have,input,risk register,,
+2,Control Risk Inputs,Work performance data relate performance result impact risk include be Deliverable status Schedule progress Costs incur,[' data relate result'],Work Performance data,relate,result,Work Performance data,,
+3,Control Risk Inputs,Work performance report take information performance measurement analyze it provide project work performance information,[' it provide information'],Work Performance reports,provide,information,Work Performance reports,,
+0,Identify Risk,Identify Risks be process determine risk may affect project document their characteristic,['risks process affect'],risks,process,affect,,0.0,
+1,Identify Risk tools_and_techniques,project documentation may be perform include plan assumption project file agreement information,['documentation perform assumption'],documentation,perform,assumption,documentation reviews,0.0,
+2,Identify Risk tools_and_techniques,goal brainstorming be obtain list project risk project team performs brainorming l Delphi technique be way reach consensus expert Project risk expert participate technique,[' brainstorming be team'],brainstorming,be,team,Information Gathering techniques,1.0,
+3,Identify Risk tools_and_techniques,Risk identification checklist be develop base information knowledge have be accumulate project source information,[' checklist develop knowledge'],checklist,develop,knowledge,checklist Analysis,2.0,
+4,Identify Risk tools_and_techniques,Assumptions analysis explore validity assumption they apply project,['analysis validity apply'],analysis,validity,apply,Assumptions Analysis,3.0,
+5,Identify Risk tools_and_techniques,ause effect diagram be know Ishikawa fishbone diagram be identify cause risk,['diagram identify cause'],diagram,identify,cause,diagramming techniques,4.0,
+6,Identify Risk tools_and_techniques,technique examines project strengths weakness opportunity threat S W O T perspectives increase breadth identified risk include generated risk,['technique strenghts perspective'],technique,strenghts,perspective,SWot Analysis,5.0,
+7,Identify Risk tools_and_techniques,he expert bias should be take account process,[' bias take process'],bias,take,process,Expert Judgment,6.0,
+8,Identify Risk Outputs,risk register be document result risk analysis risk response planning be record identified risk be describe as detail be structure describe risk use risk statement may be apply response risk may be identify Identify Risks process,['analysis risk planning'],risk register,risk,planning,risk register,0.0,
+9,Identify Risk Inputs,Published information include database Academic study Published checklist Benchmarking Industry study Risk attitude,[' information include attitude'],risk Management Plan ,include,attitude,risk Management Plan ,0.0,
+10,Identify Risk Inputs,process asset can influence Identify Risks process,[' asset influence Risks'],cost Management Plan,influence,Risks,cost Management Plan,1.0,
+11,Identify Risk Inputs,risk management plan contribute Identify Risks process be assignment role responsibility,[' process be responsibility'],Schedule Management Plan,be,responsibility,Schedule Management Plan,2.0,
+12,Identify Risk Inputs,he schedule management plan provide insight project time schedule objective expectation may be impact risk,"[' he schedule plan', ' expectation be risk']",Quality Management Plan,schedule,plan,Quality Management Plan,3.0,
+13,Identify Risk Inputs,Work performance data relate performance result impact risk include,['relate performance result'],Human resource Management Plan,performance,result,Human resource Management Plan,4.0,
+14,Identify Risk Inputs,quality management plan provide quality measure,[' plan provide measure'],Scope Baseline,provide,measure,Scope Baseline,5.0,
+15,Identify Risk Inputs,provide guidance project resource should be define,['provide guidance project'],Activity cost Estimates,guidance,project,Activity cost Estimates,6.0,
+16,Identify Risk Inputs,W B S be input identify risk it facilitate understanding risk both micro level,['facilitate understand risk'],Activity duration Estimates,understand,risk,Activity duration Estimates,7.0,
+17,Identify Risk Inputs,Activity cost estimate review be identify risk they provide quantitative assessment cost schedule activity,['review quantitve assessment'],Stakeholder register,quantitve,assessment,Stakeholder register,8.0,
+18,Identify Risk Inputs,Activity duration estimate review be identify risk related time allowance activity project,[' review identify project'],Project documents,identify,project,Project documents,9.0,
+19,Identify Risk Inputs,Information stakeholder be solicit input identify risk will ensure stakeholder,[' stakeholder solicit input'],Procurement documents,solicit,input,Procurement documents,10.0,
+20,Identify Risk Inputs,information decision help identify project risk,['information decision identify'],Enterprise Environmental Factors,decision,identify,Enterprise Environmental Factors,11.0,
+21,Identify Risk Inputs,procurement document become input Identify Risks process,[' document become Risks'],organizational Process Assets,become,Risks,organizational Process Assets,12.0,
+0,Perform Qualitative risk Analysis,Perform Quantitative Risk Analysis be process analyze effect identify risk project objective,['it analyze objective'],Perform Quantitative Risk Analysis,analyze,objective,,0.0,
+1,Perform Qualitative risk Analysis Inputs,,[],,,,,1.0,
+2,Perform Qualitative risk Analysis Outputs,,[],,,,,2.0,
+3,Perform Qualitative risk Analysis tools_and_techniques,,[],,,,,3.0,
+4,Perform Qualitative risk Analysis tools_and_techniques,Risk probability assessment investigate likelihood risk will occur,['it investigates risks'],risk Probability and Impact Assessment,investigates,risks,risk Probability and Impact Assessment,0.0,0.0
+5,Perform Qualitative risk Analysis tools_and_techniques,Probability Impact Matrix evaluate risk importance priority attention,[' Matrix evaluate attention'],Probability and Impact Matrix,evaluate,attention,Probability and Impact Matrix,1.0,1.0
+6,Perform Qualitative risk Analysis tools_and_techniques,risk data Quality Assessment evaluate degree data risk be risk management,[' risk be management'],risk data Quality Assessment,be,management,risk data Quality Assessment,2.0,2.0
+7,Perform Qualitative risk Analysis tools_and_techniques,risk categorization help determine work package activity project phase role project,['it determines activity'],risk categorization,determines,activity,risk categorization,3.0,3.0
+8,Perform Qualitative risk Analysis tools_and_techniques,Risk Urgency Assessment give risk severity rating,[' Assessment give rating'],risk urgency Assessment,give,rating,risk urgency Assessment,4.0,4.0
+9,Perform Qualitative risk Analysis tools_and_techniques,judgment be require assess probability impact risk determine location matrix,[' judgment require determine'],Expert Judgment,require,determine,Expert Judgment,5.0,5.0
+10,Perform Qualitative risk Analysis Outputs,Project Documents Updates include Risk register update Assumptions log update,[' Updates include update'],Project documents updates,include,update,Project documents updates,0.0,0.0
+11,Perform Qualitative risk Analysis Inputs,risk management plan include role responsibility conduct risk management,[' plan include conduct'],risk Management Plan,include,conduct,risk Management Plan,0.0,0.0
+12,Perform Qualitative risk Analysis Inputs,scope baseline evaluate uncertainty project,[' baseline evaluate project'],Scope Baseline,evaluate,project,Scope Baseline,1.0,1.0
+13,Perform Qualitative risk Analysis Inputs,risk register ass prioritize risk,[' register prioritize risk'],risk register,prioritize,risk,risk register,2.0,2.0
+14,Perform Qualitative risk Analysis Inputs,Enterprise factor provide insight context risk assessment risk,[' factor provide risk'],Enterprise Environmental Factors,provide,risk,Enterprise Environmental Factors,3.0,3.0
+15,Perform Qualitative risk Analysis Inputs,process asset include information complete project,[' asset include project'],organizational Process Assets,include,project,organizational Process Assets,4.0,4.0
+0,Plan risk Responses,Plan Risk Responses be process develop option action enhance opportunity reduce threat project objective,[' process develop reduce'],process,develop,reduce,,0.0,
+1,Plan Risk Responses inputs,Risk management plan risk register,['risk plan register'],risk,plan,register,,1.0,
+2,Plan Risk Responses outputs,Project update management plan document,['plan document update'],plan,document,update,,2.0,
+3,Plan Risk Responses tools_and_techniques,Strategies risk threat opportunity,['strategy risk threat'],strategy,risk,threat,,3.0,
+4,Plan Risk Responses tools_and_techniques,Strategies deal threat risk may have impact project objectives they occur be avoid transfer mitigate,[' risk have objectives'],risk,have,objectives,Strategies for negative risks or threats,0.0,
+5,Plan Risk Responses tools_and_techniques,strategy be share enhance accept,['strategy share enhance'],strategy,share,enhance,Strategies for Positive risks or opportunities,1.0,
+6,Plan Risk Responses tools_and_techniques,response be design use only event occur,['response design use'],response,design,use,contingent response Strategies,2.0,
+7,Plan Risk Responses tools_and_techniques,judgment be input party pertain action be take defined risk,[' judgment be action'],judgment,be,action,Expert Judgment,3.0,
+8,Plan Risk Responses outputs,Elements project management plan may be update result carry process include be,[' plan be update'],plan,be,update,Project Management Plan updates,0.0,
+9,Plan Risk Responses outputs,project document be update needed risk response be choose agreed they be include risk register,"[' document be update', ' they include register']",document,be,update,Project documents updates,1.0,
+10,Plan Risk Responses inputs,component risk management plan include role responsibility risk analysis definition time review risk threshold risk,[' plan include risk'],plan,include,risk,risk Management Plan,0.0,
+11,Plan Risk Responses inputs,risk register refers identify risk root cause risk list response risk owner symptoms warn sign rating priority list project risk risk require response term,[' risk require term'],risk,require,term,risk register,1.0,
+0,Perform Quantitative risk Analysis,Perform Risk Analysis be process analyze effect identify risk project objectives benefit process be it produce risk information support decision make order reduce project uncertainty,[' order reduce uncertainty'],Perform Quantitative risk Analysis,reduce ,uncertainty,,0.0,
+1,Perform Quantitative risk Analysis Inputs,,[],,,,,1.0,
+2,Perform Quantitative risk Analysis Outputs,,[],,,,,2.0,
+3,Perform Quantitative risk Analysis tools_and_techniques,,[],,,,,3.0,
+4,Perform Quantitative risk Analysis tools_and_techniques,Interviewing technique draw experience data quantify probability impact risk project objective use Modeling simulation,[' data impact project'],data Gathering and representation techniques,impact,project,data Gathering and representation techniques,0.0,
+5,Perform Quantitative risk Analysis tools_and_techniques,use technique use eventoriented projectoriented analysis approach,['use analysis approach '],Quantitative risk Analysis and Modeling techniques,analysis,approach,Quantitative risk Analysis and Modeling techniques,1.0,
+6,Perform Quantitative risk Analysis tools_and_techniques,judgment be require identify cost schedule impact evaluate probability define input probability distribution tool,[' impact evaluate probability'],Expert Judgment,evaluate,probability,Expert Judgment,2.0,
+7,Perform Quantitative risk Analysis Outputs,Project document be update information result risk analysis,[' information result analysis'],Project documents updates,result,analysis,Project documents updates,0.0,0.0
+8,Perform Quantitative risk Analysis Inputs,risk management plan provide guideline method tools be use risk analysis,[' tools use analysis'],risk Management Plan,use,analysis,risk Management Plan,0.0,0.0
+9,Perform Quantitative risk Analysis Inputs,cost management plan provide guideline establish manage risk reserve,[' plan provide guideline'],cost Management Plan,provide,guideline,cost Management Plan,1.0,1.0
+10,Perform Quantitative risk Analysis Inputs,schedule management plan provide guideline establish manage risk reserve,[' plan provide reserve'],Schedule Management Plan,provide,reserve,Schedule Management Plan,2.0,2.0
+11,Perform Quantitative risk Analysis Inputs,risk register be use reference point perform risk analysis,[' it provide reference point'],risk register,provide,reference,risk register,3.0,3.0
+12,Perform Quantitative risk Analysis Inputs,Enterprise factor may provide context risk analysis,[' factor provide analysis'],Enterprise Environmental Factors,provide,analysis,Enterprise Environmental Factors,4.0,4.0
+13,Perform Quantitative risk Analysis Inputs,process asset can influence Perform Risk Analysis process include information complete project,[' process influence informations'],organizational Process Assets,influence,informations,organizational Process Assets,5.0,5.0
+0,Plan risk Management tools and techniques,technique be use understand define risk management context project,['technique define context'],technique,define,context,Analytical techniques,0.0,
+1,Plan risk Management tools and technique,management Project stakeholder Project manager who have work project area matter expert S M Es business project area Industry group consultant association,[' who have association'],who,have,association,Expert Judgment,1.0,
+2,Plan risk Management tools and technique,Project team hold planning meeting develop risk management plan,['team plan plan'],team,plan,plan,Meetings,2.0,
+3,Plan risk Management outputs,risk management plan be component project management plan describe risk management activity will be structure performed,[' plan describe activity'],plan,describe,activity,risk Management Plan,0.0,
+4,Plan risk Management inputs,project management plan provide state riskaffected area include scope schedule cost,[' plan provide area'],plan,provide,area,Project Management Plan,0.0,
+5,Plan risk Management inputs,project charter can provide inputs risk project description requirement,[' charter provide requirement'],charter,provide,requirement,Project charter,1.0,
+6,Plan risk Management inputs,stakeholder register contain detail project stakeholder provide overview role,[' stakeholder provide role'],stakeholder,provide,role,Stakeholder register,2.0,
+7,Plan risk Management inputs,enterprise factor can influence Plan Risk Management process include be limit to risk attitude threshold tolerance describe degree risk organization will withstand,['enterprice influence process'],enterprice,influence,process,Enterprise Environmental Factors,3.0,
+8,Plan risk Management inputs,Risk category definition concept term Risk statement format Standard templates Roles responsibility Authority level decision making Lessons learn,['assets influence plan '],assets,influence,plan,organizational Process Assets,4.0,
